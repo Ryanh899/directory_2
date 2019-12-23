@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+  }; 
+
+  body {
+      margin: 0px;
+  }
+
+/* main container */
+#page-container {
+    /* height: 80vh;  */
+    width: 100vw; 
+    /* background-image: url('../images/test.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+    margin: 0px;
+}
+
+/* top header  */
+#header-row {
+    background: #112941;
+    padding: .5rem;
+}
+
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: underline;
+}
+
+#list-business-button {
+    background-image: linear-gradient(to right top, #112941, #294860, #446a7f, #628e9f, #83b3bf);
+    color: white;
+    /* color: #112941; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+.header-icon-color {
+    color: white;
+}
+
+/* landing */
+#landing-row {
+    background-image: linear-gradient(to right top, #112941, #294860, #446a7f, #628e9f, #83b3bf);
+
+    height: 100vh;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#landing-grid {
+    height: 100%; 
+    width: 100%; 
+    margin: 0px;
+}
+
+#ha-title {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* color: #112941; */
+    line-height: 1em;
+    margin-left: 5rem;
+    color: white;
+}
+
+#ha-contact {
+    float: right;
+    margin-right: 5rem;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    /* color: #112941; */
+    color: white;
+}
+
+#ha-title-column {
+    padding-right: 0px;
+}
+
+#menu-links-column {
+    padding-left: 0px;
+}
+
+.menu-links {
+    float: left; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 1rem;
+    /* color: #112941; */
+    color: white;
+    margin-top: 4rem;
+}
+
+#landing-search-row {
+    height: 50vh;
+
+}
+
+#landing-search {
+    margin-left: 8rem;
+    padding-top: 0px;
+    width: 100%;
+}
+
+#landing-inner-row {
+    height: 25vh;
+    padding-top: 2rem;
+}
+
+#search-title {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-left: 8rem;
+    line-height: 1.2em;
+    margin-bottom: 1rem;
+}
+
+#landing-bottom-row {
+    height: 25vh;
+    background: #F7F5EA; 
+}
+
+#search-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 8rem;
+    color: white;
+}
+
+#landing-card {
+    background: white;
+    height: 100%;
+    width: 75%;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+
+#landing-card-header {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-bottom: 1rem;
+}
+
+#landing-card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
