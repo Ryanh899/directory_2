@@ -179,9 +179,9 @@
             </div>
             <div class="sixteen wide center aligned column" id="logo-column">
               <p class="notWhite-header-text">Who we Work With</p>
-              <div class="ui grid">
+              <div class="ui grid" id="logo-grid">
                 <div
-                  class="four wide computer sixteen wide mobile center aligned column"
+                  class="eight wide computer sixteen wide mobile center aligned column"
                 >
                   <img class="logo-images" src="./images/Hair Club.webp" />
                   <p class="logo-header">
@@ -193,7 +193,7 @@
                   </p>
                 </div>
                 <div
-                  class="four wide computer sixteen wide mobile center aligned column"
+                  class="eight wide computer sixteen wide mobile center aligned column"
                 >
                   <img class="logo-images" src="./images/Artas.png" />
                   <p class="logo-header">
@@ -205,7 +205,7 @@
                   </p>
                 </div>
                 <div
-                  class="four wide computer sixteen wide mobile center aligned column"
+                  class="eight wide computer sixteen wide mobile center aligned column"
                 >
                   <img class="logo-images" src="./images/WTS.png" />
                   <p class="logo-header">
@@ -217,7 +217,7 @@
                   </p>
                 </div>
                 <div
-                  class="four wide computer sixteen wide mobile center aligned column"
+                  class="eight wide computer sixteen wide mobile center aligned column"
                 >
                   <img class="logo-images" src="./images/ISHRS.png" />
                   <p class="logo-header">
@@ -231,11 +231,11 @@
               </div>
             </div>
           </div>
-          <div class="row" id="why-row">
+          <!-- <div class="row" id="why-row">
             <div class="sixteen wide coulumn">
               <div class="ui grid">
                 <div class="centered row">
-                  <p class="notWhite-header-text">Search by Category</p>
+                  <p class="notWhite-header-text">Categories</p>
                   <div class="fourteen wide column" id="category-search-column">
                     <div
                       class="ui centered grid container"
@@ -338,7 +338,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="row" id="about-row">
             <div
               class="five wide computer sixteen wide mobile middle aligned column"
@@ -356,7 +356,7 @@
             <div
               class="five wide computer sixteen wide mobile middle aligned column"
             >
-              <p class="why-subtitles">HOW WE ARE DIFFERENT?</p>
+              <p class="why-subtitles">HOW ARE WE DIFFERENT?</p>
               <p class="why-subtext">
                 Unlike other special-interest groups and deep-pocket
                 advertisers, the Hair Authority Directory is not beholden to any
@@ -368,7 +368,7 @@
             <div
               class="five wide computer sixteen wide mobile middle aligned column"
             >
-              <p class="why-subtitles">WHY HAIR AUTHORITY DIRECTORY?</p>
+              <p class="why-subtitles">WHY OUR DIRECTORY?</p>
               <p class="why-subtext">
                 In this directory, we have pooled together the best qualified
                 professionals from multiple specialties who are located in your
@@ -377,8 +377,79 @@
               </p>
             </div>
           </div>
-          <div class="row" id="recently-added-row" >
-            
+          <div class="row" id="list-business">
+            <div class="two wide column"></div>
+            <div class="six wide column">
+              <div id="form-container">
+                <div class="ui equal width form">
+                  <!-- header  -->
+                  <div class="fields">
+                    <div class="field">
+                      <h1 id="first-quote-form-header">List your Business!</h1>
+                      <p id="quote-form-text">
+                        Fill out the form below and a member of the Hair
+                        Authority team will reach out to you shortly.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- first row  -->
+                  <div class="fields">
+                    <div class="field">
+                      <label id="list-form-text">Full Name</label>
+                      <input type="text" placeholder="Full Name" />
+                    </div>
+                    <div class="field">
+                      <label id="list-form-text">Email</label>
+                      <input type="email" placeholder="Email" />
+                    </div>
+                  </div>
+                  <!-- second row  -->
+                  <div class="fields">
+                    <div class="field">
+                      <label id="list-form-text">Phone</label>
+                      <input type="text" placeholder="Phone" />
+                    </div>
+                    <div class="field">
+                      <label id="list-form-text">Zip</label>
+                      <input type="text" placeholder="Zip" />
+                    </div>
+                  </div>
+                  <!-- security type  -->
+                  <div class="fields">
+                    <div class="field">
+                      <label id="list-form-text">Verification Information</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                  </div>
+                </div>
+                <!-- submit button  -->
+                <button class="ui full width button" id="list-submit-button">
+                  Join the Webs Most Trusted Directory!
+                </button>
+              </div>
+            </div>
+            <div class="eight wide column">
+              <div class="ui grid" id="list-text-grid" >
+                <div class="four wide middle aligned column" id="claim-image-column" >
+                    <img class="ui small image" id="claim-image" src="./images/628436.png">
+                </div>
+                <div class="nine wide left aligned middle aligned column list-text-column"  >
+                    <ul>
+                        <li class="list-text" >We list many of the top products and services</li>
+                        <li class="list-text" >If you see yours already listed, click <button class="ui primary button" >Claim this Business</button> to take control of your page</li>
+                    </ul>
+                </div>
+                <div class="four wide middle aligned column" id="network-image-column" >
+                    <img class="ui small image" id="network-image" src="./images/why.png">
+                </div>
+                <div class="nine wide left aligned middle aligned column list-text-column"  >
+                    <ul>
+                        <li class="list-text" >Joining the Hair Authority Directory means networking!</li>
+                        <li class="list-text" >Show your solution to the thousands of people in our community</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
