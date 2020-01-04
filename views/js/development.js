@@ -14,3 +14,7 @@ $('.menu .item')
   .tab()
 ;
 
+$('.logo-images')
+  .popup()
+;
+

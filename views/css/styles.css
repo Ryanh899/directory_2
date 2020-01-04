@@ -354,6 +354,49 @@ html {
     padding-right: 0px;
 }
 
+.big-header-text {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* color: #112941; */
+    line-height: 1em;
+    margin-left: 5rem;
+    color: white;
+}
+
+#footer-row {
+    background-image: linear-gradient(to right top, #112941, #294860, #446a7f, #628e9f, #83b3bf);
+}
+
+.footer-search-form {
+    width: 350px;
+    height: 40px;
+    margin-left: 12.5rem;
+    margin-top: 3rem;
+    border-radius: 40px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+#copyright-column {
+    margin-top: 1rem;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-top: 1rem;
+}
+
+#icons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
     #ha-title {
         margin-left: 0px;
