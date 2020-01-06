@@ -397,6 +397,38 @@ html {
     margin-bottom: 1rem;
 }
 
+#search-semantic {
+    width: 33.3vw;
+    margin-left: 8rem;
+}
+
+.center-description {
+    text-align: center;
+}
+
+#testimonial-row {
+    background-image: url(../images/landing-4-overlay2.jpg);
+    height: 75vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+
+.testimonial-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.quote-text {
+    font-family: 'Montesserat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
     #ha-title {
         margin-left: 0px;

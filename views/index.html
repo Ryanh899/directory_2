@@ -100,53 +100,13 @@
             <div class="ten wide computer sixteen wide mobile column">
               <p id="search-title">Find Top Hair Loss Professionals</p>
               <p id="search-subtitle">From the only 100% objective directory</p>
-              <form class="search-form">
-                <input
-                  type="search"
-                  value=""
-                  placeholder="Search"
-                  class="search-input"
-                />
-                <button type="submit" class="search-button">
-                  <svg class="submit-button">
-                    <use
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xlink:href="#search"
-                    ></use>
-                  </svg>
-                </button>
-                <div class="search-option">
-                  <div>
-                    <input
-                      name="type"
-                      type="radio"
-                      value="type-users"
-                      id="type-users"
-                    />
-                    <label for="type-users">
-                      <svg class="edit-pen-title">
-                        <use
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          xlink:href="#user"
-                        ></use>
-                      </svg>
-                      <span>Users</span>
-                    </label>
-                  </div>
+              <div class="ui search"  >
+                <div class="ui icon input">
+                  <input id="search-semantic" class="prompt" type="text" placeholder="Ex. Hair Restoration, Hair Transplant, Laser Therapy">
+                  <i class="search icon"></i>
                 </div>
-              </form>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0"
-                height="0"
-                display="none"
-              >
-                <symbol id="search" viewBox="0 0 32 32">
-                  <path
-                    d="M 19.5 3 C 14.26514 3 10 7.2651394 10 12.5 C 10 14.749977 10.810825 16.807458 12.125 18.4375 L 3.28125 27.28125 L 4.71875 28.71875 L 13.5625 19.875 C 15.192542 21.189175 17.250023 22 19.5 22 C 24.73486 22 29 17.73486 29 12.5 C 29 7.2651394 24.73486 3 19.5 3 z M 19.5 5 C 23.65398 5 27 8.3460198 27 12.5 C 27 16.65398 23.65398 20 19.5 20 C 15.34602 20 12 16.65398 12 12.5 C 12 8.3460198 15.34602 5 19.5 5 z"
-                  />
-                </symbol>
-              </svg>
+                <div class="results"></div>
+              </div>
             </div>
             <div class="six wide computer only center aligned column">
               <div class="ui grid container" id="landing-card">
@@ -230,9 +190,9 @@
                   </div>
                 </div>
               </div>
-            
+             
           </div>
-
+     
           <div class="row" id="about-row">
             <div
               class="five wide computer sixteen wide mobile middle aligned column"
@@ -269,6 +229,13 @@
                 area. You are just a click away from finding a permanent
                 solution to your hair-loss problem.
               </p>
+            </div>
+          </div>
+          <div class="row" id="testimonial-row" >
+            <div class="four wide column"></div>
+            <div class="four wide right aligned middle aligned column">
+              <p class="testimonial-text" >"The Hair Authority Directory didn't just help me get my hair back, they helped me get my life back!"</p>
+              <p class="quote-text" >- John Smith</p>
             </div>
           </div>
           <div class="row" id="list-business">
