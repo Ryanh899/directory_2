@@ -100,7 +100,7 @@ html {
 }
 
 #landing-search-row {
-    height: 65vh;
+    height: 50vh;
 
 }
 
@@ -111,7 +111,7 @@ html {
 }
 
 #landing-inner-row {
-    /* height: 25vh; */
+    height: 25vh;
     padding-top: 2rem;
 }
 
@@ -139,10 +139,11 @@ html {
 
 #landing-card {
     background: white;
-    height: 75%;
+    height: 100%;
     width: 75%;
     margin-left: 5rem;
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 #landing-card-header {

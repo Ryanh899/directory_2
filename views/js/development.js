@@ -1,3 +1,4 @@
+
 $('.search-input').focus(function(){
   $(this).parent().addClass('focus');
 }).blur(function(){
@@ -17,4 +18,12 @@ $('.menu .item')
 $('.logo-images')
   .popup()
 ;
+
+$( document ).ready(function() {
+  axios.get('http://localhost:3001/api/test')
+    .then(test => {
+      console.log(test); 
+    })
+    .catch(err => console.log(err))
+});
 
